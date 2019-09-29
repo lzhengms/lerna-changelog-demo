@@ -21,3 +21,26 @@
 
 ![1569725142158](README.assets/1569725142158.png)
 
+
+
+13.git pull origin master
+
+14.执行 lerna-changelog，会报错must private github_auth
+
+15.在自己的github上创建token：
+
+e171896f9ac3df0d4e8a195bde8dae4c41199a2f
+
+![1569726187227](README.assets/1569726187227.png)
+
+
+
+把这个token值，以环境变量的形式暴露，常用的，可以添加到~/.bash_profile里
+
+export GITHUB_AUTH="..."
+
+
+
+参考：<https://github.com/frontend9/fe9-library/issues/243
+
+><https://github.com/lerna/lerna-changelog#github-token>
