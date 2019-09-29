@@ -5,3 +5,4 @@
 5. cd packages
 6. mkdir package1 package2 package3
 7. 分别在package1 package2, package3中运行npm init -y
+8. 在 Issues那边新增一个label,名为feat
