@@ -1,0 +1,29 @@
+{
+  "name": "package5",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "lzhengms <2393408826@qq.com>",
+  "homepage": "https://github.com/lzhengms/lerna-changelog-demo#readme",
+  "license": "ISC",
+  "main": "lib/package5.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npm.sdp.nd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lzhengms/lerna-changelog-demo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/lzhengms/lerna-changelog-demo/issues"
+  }
+}
