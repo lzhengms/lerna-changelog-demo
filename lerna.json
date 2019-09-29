@@ -6,10 +6,11 @@
   "changelog": {
     "repo": "lzhengms/lerna-changelog-demo",
     "labels": {
-      "enhancement": ":rocket: Enhancement",
+      "feat": ":rocket: New Feature",
       "bug": ":bug: Bug Fix",
-      "doc": "Refine Doc",
-      "feat": "New Feature"
+      "doc": ":memo: Documentation",
+      "internal": ":house: Internal",
+      "breaking": ":boom: Breaking Change"
     },
   "cache": ".changelog"
   }
